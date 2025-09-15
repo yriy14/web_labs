@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -69,16 +68,16 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center; /* Центруємо горизонтально */
-  gap: 50px; /* Відстань між текстом і зображенням */
+  justify-content: center;
+  gap: 50px; 
   padding: 80px 50px;
-  flex-wrap: wrap; /* При зменшенні екрану блоки стають один під одним */
-  text-align: center; /* Центруємо текст */
+  flex-wrap: wrap; 
+  text-align: center; 
 }
 
 .hero__text {
   max-width: 500px;
-  margin: 0; /* прибрано margin-left */
+  margin: 0; 
 }
 
 .hero__text p {
@@ -91,7 +90,7 @@ body {
   width: 550px;
   max-width: 100%;
   border-radius: 12px;
-  transform: translateY(0); /* прибрано зміщення */
+  transform: translateY(0); 
 }
 
 /* Articles */
@@ -208,9 +207,9 @@ body {
   color: #fff;
   padding: 30px 50px;
   display: flex;
-  justify-content: center; /* центр по горизонталі */
-  align-items: center;     /* вирівнювання по вертикалі */
-  gap: 100px;              /* відстань між логотипом та блоком лінків */
+  justify-content: center; 
+  align-items: center;   
+  gap: 100px;             
 }
 
 .footer__logo {
@@ -220,7 +219,7 @@ body {
 
 .footer__links {
   display: flex;
-  gap: 100px; /* відстань між пунктами меню */
+  gap: 100px; 
 }
 
 .footer__links a {
