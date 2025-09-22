@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== HEADER ===== */
+.header {
+  padding: 20px 0;
+}
+
+.container-nav {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.logo img {
+  width: 40px;   /* 🔹 регулюєш розмір логотипу у хедері */
+  height: auto;
+  object-fit: contain;
+}
+.hom
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.menu a {
+  color: #555;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #458FF6;
+}
+
+/* ===== HERO ===== */
+.hero {
+  padding: 60px 0;
+}
+
+.container-hero {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  width: 450px;   
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #458FF6;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #3576d1;
+}
+
+/* ===== PROVIDERS ===== */
+.providers {
+  padding: 60px 0;
+}
+
+.container-providers {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.provider-text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.provider-text p {
+  margin-bottom: 20px;
+  max-width: 300px;
+  color: #666;
+}
+
+.providers-image img {
+  max-width: 100%;
+  width: 550px;
+  height: auto;
+}
+
+.btn-outline {
+  display: inline-block;
+  border: 1.5px solid #458FF6;
+  color: #458FF6;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.btn-outline:hover {
+  background: #458FF6;
+  color: #fff;
+}
+
+/* ===== SERVICES ===== */
+.services {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container-services {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+  margin: 100px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.service-icon {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.service-icon img {
+  width: 60px;   /* 🔹 регулюєш розмір іконки */
+  height: 60px;
+  object-fit: contain;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: linear-gradient(90deg,#5A98F2,#67C3F3);
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container-footer {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.footer-menu {
+  margin-top: 18px;
+  margin-left: 400px;
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+
+.footer-menu a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
