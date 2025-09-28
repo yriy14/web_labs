@@ -32,7 +32,7 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
 }
 
 .logo {
@@ -49,7 +49,7 @@ img {
   height: auto;
   object-fit: contain;
 }
-.hom
+
 .menu {
   list-style: none;
   display: flex;
@@ -250,6 +250,11 @@ img {
   color: #ffffff;
   max-width: 35px;
   max-height: 35px;
+}
+
+.footer-logo img {
+  width: 35px;
+  height: auto;
 }
 
 .footer-menu {
